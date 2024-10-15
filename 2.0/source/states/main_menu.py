@@ -27,7 +27,7 @@ class MainMenu:
         surface.blit(self.background,self.viewport)
         surface.blit(self.caption, (170, 100))
         surface.blit(self.player_image, (110, 495))
-        surface.blit(self.cursor, (220, 360))
+        surface.blit(self.cursor, (140, 360))
 
         self.info.update()
         self.info.draw(surface)
